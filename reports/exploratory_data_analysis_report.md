@@ -1,358 +1,83 @@
-# Exploratory Data Analysis (EDA) Report
+# Exploratory Data Analysis (EDA) Summary
 
-## Project
-Retail Fashion Sales Analytics Dashboard
+## Dataset Overview
 
----
-
-# SECTION 1 : DATASET OVERVIEW
-
-### 1. Total Records
-
-**Finding:**
-The dataset contains **2176** product records.
-
-**Insight:**
-This confirms the dataset size available for analysis.
+- Total Records: 2176
+- Total Brands: 8
+- Total Categories: 6
+- Total Colors: 11
+- Total Seasons: 4
+- Total Size: 6
+- Purchase Date Range: 2024-08-06 to 2025-08-06
 
 ---
 
-### 2. Total Brands
+## Product Distribution
 
-**Finding:**
-There are **8** unique fashion brands.
-
-**Insight:**
-The business offers products from multiple brands, allowing brand-level performance analysis.
-
----
-
-### 3. Total Categories
-
-**Finding:**
-There are **_____** product categories.
-
-**Insight:**
-The retailer has a diverse product portfolio.
+- Most Common Category: Accessories
+- Least Common Category: Dresses
+- Most Common Brand: Zara
+- Least Common Brand: Gap
+- Most Common Season: Summer
+- Most Common Color: Green
+- Most Common Size: XS
 
 ---
 
-### 4. Total Colors
+## Pricing Overview
 
-**Finding:**
-Products are available in **_____** different colors.
+- Minimum Original Price: 15.14
+- Maximum Original Price: 249.98
+- Average Original Price: 97.20
 
-**Insight:**
-This enables analysis of customer color preferences.
+- Minimum Current Price: 7.29
+- Maximum Current Price: 249.98
+- Average Current Price: 85.5
 
----
-
-### 5. Total Seasons
-
-**Finding:**
-The dataset covers **_____** selling seasons.
-
-**Insight:**
-Seasonal sales trends can be analyzed.
+- Average Discount: 12.14%
 
 ---
 
-### 6. Total Sizes
+## Inventory Overview
 
-**Finding:**
-Products are available in **_____** different sizes.
-
-**Insight:**
-Size distribution helps understand inventory requirements.
-
----
-
-### 7. Purchase Date Range
-
-**Finding:**
-Transactions span from **_____** to **_____**.
-
-**Insight:**
-The dataset covers approximately **_____** months of retail activity.
+- Total Stock Available: 54,265
+- Average Stock per Product: 24.94
+- Out of Stock Products: 43
+- Low Stock Products: 197
 
 ---
 
-# SECTION 2 : PRODUCT DISTRIBUTION
+## Customer Ratings
 
-### 8. Products by Category
-
-**Finding:**
-The category with the highest number of products is **_____**.
-
-The category with the fewest products is **_____**.
-
-**Insight:**
-Product assortment is not evenly distributed across categories.
+- Average Rating: 2.99
+- Highest Rating: 5.0
+- Lowest Rating: 1.0
+- Unrated Products: 362
 
 ---
 
-### 9. Products by Brand
+## Returns Overview
 
-**Finding:**
-The largest brand is **_____**.
-
-The smallest brand is **_____**.
-
-**Insight:**
-Inventory allocation differs between brands.
+- Returned Products: 320
+- Return Rate: 14.71%
+- Most Common Return Reason: Changed Mind
 
 ---
 
-### 10. Products by Season
+## Time Analysis
 
-**Finding:**
-Most products belong to **_____** season.
-
-**Insight:**
-Seasonal collections are balanced / unbalanced.
+- Dataset Covers: 2024 to 2025
+- Busiest Month: August
+- Most Active Season: Summer
 
 ---
 
-### 11. Products by Color
-
-**Finding:**
-The most common color is **_____**.
-
-**Insight:**
-Customer color preferences can be analyzed.
-
----
-
-### 12. Products by Size
-
-**Finding:**
-The most common size is **_____**.
-
-**Insight:**
-Inventory planning should prioritize this size.
-
----
-
-# SECTION 3 : PRICING OVERVIEW
-
-### 13. Original Price
-
-**Finding:**
-
-- Minimum Price : _____
-- Maximum Price : _____
-- Average Price : _____
-
-**Insight:**
-The retailer offers products across multiple price ranges.
-
----
-
-### 14. Current Price
-
-**Finding:**
-
-- Minimum Price : _____
-- Maximum Price : _____
-- Average Price : _____
-
-**Insight:**
-Discounts reduce the overall selling price.
-
----
-
-### 15. Markdown Percentage
-
-**Finding:**
-
-- Minimum Discount : _____%
-- Maximum Discount : _____%
-- Average Discount : _____%
-
-**Insight:**
-Pricing strategy relies on markdowns to drive sales.
-
----
-
-# SECTION 4 : INVENTORY OVERVIEW
-
-### 16. Inventory Summary
-
-**Finding:**
-
-- Total Stock : _____
-- Average Stock : _____
-- Minimum Stock : _____
-- Maximum Stock : _____
-
-**Insight:**
-Inventory levels vary across products.
-
----
-
-### 17. Out of Stock Products
-
-**Finding:**
-There are **_____** out-of-stock products.
-
-**Insight:**
-These products may require replenishment.
-
----
-
-### 18. Low Stock Products
-
-**Finding:**
-There are **_____** low-stock products.
-
-**Insight:**
-These products should be monitored closely.
-
----
-
-# SECTION 5 : CUSTOMER RATINGS
-
-### 19. Rating Summary
-
-**Finding:**
-
-- Average Rating : _____
-- Minimum Rating : _____
-- Maximum Rating : _____
-
-**Insight:**
-Overall customer satisfaction is moderate / high / low.
-
----
-
-### 20. Rating Distribution
-
-**Finding:**
-Most ratings fall between **_____**.
-
-**Insight:**
-Customers generally provide positive / mixed feedback.
-
----
-
-### 21. Missing Ratings
-
-**Finding:**
-There are **_____** unrated products.
-
-**Insight:**
-Approximately **_____ %** of products have no customer feedback.
-
----
-
-# SECTION 6 : RETURNS
-
-### 22. Returned vs Not Returned
-
-**Finding:**
-
-Returned Products : _____
-
-Not Returned Products : _____
-
-**Insight:**
-Most purchases are retained by customers.
-
----
-
-### 23. Return Rate
-
-**Finding:**
-Overall return rate is **_____ %**.
-
-**Insight:**
-Return performance is within / above industry expectations.
-
----
-
-### 24. Return Reasons
-
-**Finding:**
-The most common return reason is **_____**.
-
-**Insight:**
-Management should investigate this issue.
-
----
-
-# SECTION 7 : TIME ANALYSIS
-
-### 25. Transactions by Year
-
-**Finding:**
-Most transactions occurred in **_____**.
-
-**Insight:**
-Business activity increased / decreased over time.
-
----
-
-### 26. Transactions by Month
-
-**Finding:**
-The busiest month is **_____**.
-
-**Insight:**
-Monthly demand patterns are clearly visible.
-
----
-
-### 27. Transactions by Season
-
-**Finding:**
-The season with the highest transactions is **_____**.
-
-**Insight:**
-Seasonal demand influences product sales.
-
----
-
-# SECTION 8 : BRAND OVERVIEW
-
-### 28. Brand Summary
-
-**Finding:**
-The brand with the highest average price is **_____**.
-
-The highest-rated brand is **_____**.
-
-**Insight:**
-Brand positioning differs across pricing and customer satisfaction.
-
----
-
-# SECTION 9 : CATEGORY OVERVIEW
-
-### 29. Category Summary
-
-**Finding:**
-The category with the highest average price is **_____**.
-
-The highest-rated category is **_____**.
-
-**Insight:**
-Certain categories generate greater customer value.
-
----
-
-# Overall EDA Conclusion
-
-## Key Findings
-
-- Dataset contains _____ product records.
-- Covers _____ brands and _____ categories.
-- Purchase period spans from _____ to _____.
-- Average selling price is _____.
-- Average customer rating is _____.
-- Return rate is _____%.
-- Average markdown percentage is _____%.
-- Inventory data appears complete and consistent.
-
-## Conclusion
-
-The dataset is clean, consistent, and suitable for advanced business analysis. The exploratory analysis provides a strong understanding of product distribution, pricing, inventory, customer feedback, and return behavior. The next phase will focus on answering business questions and generating actionable insights for management.
+## EDA Summary
+
+- Dataset is clean and ready for analysis.
+- Product distribution is balanced across brands and categories.
+- Pricing ranges from 7.29 to 249.98.
+- Average customer rating is 2.99.
+- Overall return rate is 14.71%.
+- Inventory levels appear sufficient for most products.
+- The dataset is suitable for business analysis and dashboard development.
