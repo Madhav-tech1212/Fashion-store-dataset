@@ -1,5 +1,7 @@
 # Retail Fashion Sales Analytics Dashboard
 
+An end-to-end Data Analytics project using SQL, Python, and Power BI to analyze retail sales performance, pricing strategies, inventory, and customer behavior.
+
 ## Business Problem
 
 FashionHub is a multi-brand fashion retailer that sells clothing, footwear, and accessories across multiple seasons.
@@ -16,11 +18,11 @@ The executive team requires a Retail Fashion Sales Analytics Dashboard to monito
 
 ## Stakeholders
 
-- CEO
-- Sales Manager
-- Inventory Manager
-- Marketing Team
-- Product Manager
+- CEO (Business Performance)
+- Sales Manager (Revenue Growth)
+- Inventory Manager (Stock Optimization)
+- Marketing Team (Campaign Performance)
+- Product Manager (Product Strategy)
 
 ## Objectives
 
@@ -41,6 +43,8 @@ The executive team requires a Retail Fashion Sales Analytics Dashboard to monito
 - Return Rate
 - Average Customer Rating
 - Inventory Available
+- Monthly Revenue Growth
+- Total Returned Products
 
 ## Business Questions
 
@@ -66,8 +70,56 @@ The executive team requires a Retail Fashion Sales Analytics Dashboard to monito
 
 ## Dataset
 
-This project uses the **Retail Fashion Boutique Data Sales Analytics 2025** dataset from Kaggle.
+Dataset Name:
+Retail Fashion Boutique Data Sales Analytics 2025
 
-Source: https://www.kaggle.com/datasets/pratyushpuri/retail-fashion-boutique-data-sales-analytics-2025
+Source:
+https://www.kaggle.com/datasets/pratyushpuri/retail-fashion-boutique-data-sales-analytics-2025
 
-The dataset is included in the `data/raw/` folder for convenience.
+The dataset is publicly available on Kaggle and has been used for educational and portfolio purposes.
+
+It contains sales, pricing, inventory, customer ratings, and return information for multiple fashion brands during 2024–2025.
+
+## Project Workflow
+
+Business Understanding
+
+↓
+
+Data Understanding
+
+↓
+
+SQL Data Cleaning
+
+↓
+
+Exploratory Data Analysis (SQL)
+
+↓
+
+Python EDA
+
+↓
+
+Power BI Dashboard
+
+↓
+
+Business Insights
+
+↓
+
+Recommendations
+
+## Tech Stack
+
+- SQL (MySQL)
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Power BI
+- Git
+- GitHub
+- VS Code
