@@ -84,31 +84,31 @@ It contains sales, pricing, inventory, customer ratings, and return information 
 
 Business Understanding
 
-↓
+        ↓
 
 Data Understanding
 
-↓
+        ↓
 
 SQL Data Cleaning
 
-↓
+        ↓
 
 Exploratory Data Analysis (SQL)
 
-↓
+        ↓
 
 Python EDA
 
-↓
+        ↓
 
 Power BI Dashboard
 
-↓
+        ↓
 
 Business Insights
 
-↓
+        ↓
 
 Recommendations
 
